@@ -1,4 +1,4 @@
-import Image from "next/image";
+/*import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -91,5 +91,13 @@ export default function Home() {
         </a>
       </footer>
     </div>
+  );
+}*/
+export default function Home() {
+  return (
+    <main style={{ textAlign: "center", marginTop: "100px" }}>
+      <h1>Hello World 🚀</h1>
+      <p>My Next.js app is running successfully</p>
+    </main>
   );
 }
